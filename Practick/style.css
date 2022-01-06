@@ -1,3 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.href{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.tithe.h {
+width: 510px;
+}
 body{
     font-family: sans-serif;
 }
