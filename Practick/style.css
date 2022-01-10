@@ -1,60 +1,69 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.container{
+.homepage{
+width: 1366px;
+margin: 0 auto;
+background-color: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);;
+}
+.menu{
     width: 1140px;
-    margin: 0 auto;
+    height: 48px;
 }
-.href{
+.button{
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+    list-style-type: none; 
+    justify-content: space-between;  
+    padding-left: 113px;
+    padding-top: 34px;
 }
-.tithe.h {
-width: 510px;
+.top{
+    display: flex;
 }
-body{
-    font-family: sans-serif;
+.left-field{
+    display: flex;
+    flex-direction: column;
 }
-.pg{
-    font-size: 16px;
-    line-height: 26px;
+.tools{
+    height: 148px;
+    width: 504px;
+    padding-top: 189px;
+    padding-left: 113px;
+}
+.h_tools{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
     color: #1F3F68;
-}
-.href_big{
-   font-size: 64px;
-   color: #1F3F68; 
-}
-.href_2_ct{
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
-.href_3_all{
-    font-size: 36px;
-    text-align: center;
-}
-.href_4_all{ 
-    font-size: 20px;
-    line-height: 30px;
-    color: #1F3F68;
-}
-.form{
-     border: 1px solid #356EAD;
-     box-sizing: border-box;
-     border-radius: 10px;
-     opacity: 0.4;
-}
-.but_on{
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
 
+}
+.text_tools{
+    width: 425px;
+    height: 82px;
+    padding-left: 114px;
+    padding-top: 32px;
+
+}
+.p_tools{
+    color: #1F3F68;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.button{
+    padding-left: 114px;
+    padding-top: 86px;
+
+}
+.img{
+    margin-top: 158.84px;
+    margin-left: -87.17px;
+
+
+}
+.image{
+    width: 648.69px;
+    height: 549.04px;
 }
